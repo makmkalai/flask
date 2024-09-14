@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        li {
+            margin-left: 80px;
+        }
+    </style>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Employee details -->
+        <a class="navbar-brand" href="{{url_for('details')}}">Employee Details</a>
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="navbar-brand" href="{{url_for('add')}}">Add</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbar-brand" style="color: red;" href="{{url_for('logout')}}">Logout</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="welcome">
+        <h1>WELCOME</h1>
+    </div>
+</body>
+
+</html>

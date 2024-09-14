@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 216, 216);
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    height: 500px;
+}
+.login form{
+    box-shadow: 0 0 90px rgb(99, 95, 100);
+    padding: 20px;
+    border-radius: 20px;
+}
+.login form h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login form input{
+    margin-top: 10px;
+    width: 100%;
+    padding: 4px;    
+}
+input[type=text]{
+    padding: 5px 10px;
+}
+input[type=number]{
+    padding: 5px 10px;
+}
+input[type=submit]{
+    background-color: rgb(218, 204, 204);
+    border: 0;
+    text-align: center;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+input[type=submit]:hover{
+    background-color: lightgreen;
+    /* color: white; */
+}
+.welcome{
+    text-align: center;
+    margin: 50px 0;
+    color: blue;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 400px;
+}
+.table table{
+    box-shadow: 0 0 20px rgb(103, 101, 105);
+}
+table,
+th,
+td {
+    text-align: center;
+}
+.empdetail h1{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(43, 109, 87);
+}
+.edit{
+    background-color:rgb(138, 131, 131) ;
+    color: white;
+    border-radius: 20px;
+    padding: 1px 20px;
+}
+.delete{
+    background-color:rgb(230, 101, 101) ;
+    color:white;
+    border-radius: 20px;
+    padding: 1px 20px;
+}
+a:hover{
+    text-decoration: none;
+}
+.home_a{
+    text-align: center;
+}
+.home{
+    background-color:rgb(25, 25, 117) ;
+    color:white;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+.empform{
+    margin: 30px 100px;
+    padding: 50px 50px;
+    box-shadow: 0 0 30px rgb(107, 105, 105) ;
+    border-radius: 20px;
+}
+.empform form h1{
+    text-align: center;
+    margin-bottom: 30px;
+}

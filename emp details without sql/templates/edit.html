@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <div class="empform"> 
+        <form action="#" method="post">
+            <h1>EMPLOYEE DETAILS</h1>
+            <label for="">Enter your name:</label>
+            <input type="text" name="name" value="{{emp1['Name']}}"><br><br>
+            <label for="">Enter your Age:</label>
+            <input type="number" name="age" value="{{emp1['Age']}}"><br><br>
+            <label for="">Enter your Year_Of_Joining:</label>
+            <input type="number" name="year_of_join" value="{{emp1['Year_of_join']}}"><br><br>
+            <label for="">Enter your Salary:</label>
+            <input type="number" name="salary" value="{{emp1['Salary']}}"><br><br>
+            <label for="">Enter your Place:</label>
+            <input type="text" name="place" value="{{emp1['Place']}}"><br><br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+
+</html>
